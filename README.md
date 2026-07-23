@@ -116,9 +116,9 @@ The project includes comprehensive performance analysis through:
 
 | Model | Accuracy | Precision | Recall | F1-score |
 |--------|---------:|----------:|--------:|---------:|
-| Support Vector Machine | XX% | XX% | XX% | XX% |
+| Support Vector Machine | 99.94% | 93.12% | 88.57% | 90.79% |
 
-> Replace the values above with your final model performance.
+
 
 ---
 

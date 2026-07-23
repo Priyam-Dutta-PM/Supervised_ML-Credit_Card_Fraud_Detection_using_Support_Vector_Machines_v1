@@ -101,8 +101,26 @@ The trained models are evaluated using:
 - Performance Comparison Charts
 
 ---
+**Performance Analysis**
+
+>The performance of the models is evaluated using metrics including accuracy, precision, recall, F1-score, ROC-AUC, confusion matrices, ROC curves, and training time. By comparing the strengths and limitations of Linear and RBF SVMs, this study aims to identify the most suitable classifier for credit card fraud detection while highlighting the practical trade-offs between maximizing fraud detection and minimizing false positive predictions.
+
+>Credit card fraud detection is a challenging binary classification problem due to the highly imbalanced nature of transaction data. This project compares the performance of Linear and Radial Basis Function (RBF) Support Vector Machine (SVM) classifiers for identifying fraudulent transactions.
+
+>After balancing the dataset and applying feature scaling, both models are trained and evaluated using metrics such as accuracy, precision, recall, F1-score, ROC-AUC, and confusion matrices. The comparison highlights the effectiveness of linear and non-linear SVMs in detecting fraudulent credit card transactions.
+
 
 ## 📈 Results
+
+
+> **Two Support Vector Machine (SVM) classifiers, namely the Radial Basis Function (RBF) SVM and Linear SVM, were trained and evaluated on a balanced subset of the Credit Card Fraud Detection dataset**.
+
+> Both models achieved an overall accuracy of 96% and an F1-score of 0.90, demonstrating strong classification performance. The RBF SVM achieved a higher precision of 96%, indicating fewer false positive fraud detections, while the Linear SVM achieved a higher recall of 90%, successfully identifying a greater proportion of fraudulent transactions compared to the RBF SVM (84% recall).
+
+> Both models exhibited comparable overall performance, as reflected by their identical F1-scores, with the trade-off lying between precision and recall. Since fraud detection applications generally prioritize minimizing missed fraudulent transactions, the Linear SVM provides a slight practical advantage by detecting more fraud cases, whereas the RBF SVM is better suited for scenarios where reducing false alarms is more critical.
+
+>Overall, the results demonstrate that both linear and non-linear SVMs are effective classifiers for credit card fraud detection when trained on a balanced dataset, with the choice of model depending on the desired balance between fraud detection sensitivity and false positive rates.
+
 
 The project includes comprehensive performance analysis through:
 
